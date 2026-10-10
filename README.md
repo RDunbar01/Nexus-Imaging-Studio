@@ -1,5 +1,49 @@
 # NEXUS Imaging Studio
 
+## Created with AI-assisted coding
+
+**Developed by Rich Dunbar · Build → Measure → Learn · Built for the Nexus OS workflow**
+
+I created NEXUS Imaging Studio because I wanted **quick, easy-to-use formatting and imaging tools** for my Nexus OS development work.
+
+My main workflow is straightforward: **flash a compatible Nexus OS ISO or disk image onto a USB drive, prepare bootable media, and make the remaining capacity useful by creating and mounting an additional data partition** where the image layout supports it.
+
+I developed the application using **AI-assisted coding**, directing its design and using AI to help implement, debug and refine the interface and backend. Development followed an iterative **build–measure–learn** process: make a change, test its behavior, learn from the result and improve the next revision.
+
+### Built around a practical need
+
+| Goal | Intended workflow |
+| --- | --- |
+| **Prepare Nexus OS media** | Write a supported boot image to the selected removable drive |
+| **Use spare capacity** | Create a separate data partition in eligible remaining unallocated space |
+| **Make storage accessible** | Format and mount the data volume with a Windows drive letter |
+| **Check the result** | Review write verification, boot structures and operation logs |
+| **Repeat efficiently** | Prepare the next Nexus OS build through the same interface |
+
+```mermaid
+flowchart LR
+    A["Select compatible<br/>Nexus OS image"] --> B["Confirm the<br/>correct USB drive"]
+    B --> C["Flash and verify"]
+    C --> D{"Suitable remaining<br/>unallocated space?"}
+    D -->|Yes| E["Create and mount<br/>a data partition"]
+    D -->|No| F["Review result<br/>and safely eject"]
+    E --> F
+```
+
+### My hands-on testing
+
+**For my own use, this program works well. I have tested it successfully hundreds of times in my development workflow.**
+
+That is my report of practical use, rather than an independently audited reliability statistic. The recorded source and simulated checks below are a separate evidence set; they do not reproduce those physical-device tests.
+
+Bootability still depends on the source image and target firmware. A raw write does not make every optical ISO USB-bootable, and an extra data partition can only be created when the resulting layout and available space permit it.
+
+> [!WARNING]
+> **Flashing, formatting and repartitioning can permanently erase data.**
+> Back up important files and verify the target drive's identity before confirming an operation. Successful past tests do not eliminate the risk of choosing the wrong drive or encountering faulty media.
+
+---
+
 **AEGIS removable-media imaging, recovery, verification, and disk management**
 
 ![Version](https://img.shields.io/badge/version-3.2.4-1776b6)
@@ -16,6 +60,9 @@ Built with **Python, Tkinter, Windows PowerShell Storage commands, and Win32 dis
 
 ## Contents
 
+- [Created with AI-assisted coding](#created-with-ai-assisted-coding)
+- [Built around a practical need](#built-around-a-practical-need)
+- [My hands-on testing](#my-hands-on-testing)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation and launch](#installation-and-launch)
@@ -199,6 +246,10 @@ Use **Export Log** in the interface to save a readable operation log. Logs and m
 
 ## Testing status
 
+### Developer experience and recorded checks
+
+The developer reports hundreds of successful tests in his own Nexus OS workflow, as described above. The table below records the separate source-level review supplied with this documentation; **“Not tested here” refers to that review, not to an assertion that the developer has never tested the feature**. No comprehensive per-run hardware record is included in this starter package.
+
 **This README describes features present in the supplied v3.2.4 Python source.** Source-code checks do **not** establish that a physical USB device, bootloader, or forensic recovery operation has been independently qualified.
 
 | Check | Status | Scope |
@@ -264,7 +315,7 @@ NEXUS Imaging Studio is built using established open-source programming and inte
 
 ## License and attribution
 
-**NEXUS Imaging Studio** is a project of **NEXUS Emerging Technology**. The names and rights of Python, Tcl/Tk, and Microsoft remain with their respective owners and contributors. Acknowledgement does not imply those projects or vendors endorse NEXUS Imaging Studio.
+**NEXUS Imaging Studio** was developed by **Rich Dunbar / NEXUS Emerging Technology with AI-assisted coding**. The names and rights of Python, Tcl/Tk, and Microsoft remain with their respective owners and contributors. Acknowledgement does not imply those projects or vendors endorse NEXUS Imaging Studio.
 
 **No project-level `LICENSE` file was provided for this Python application.** The upstream licenses listed above govern their respective software, **not** the original NEXUS code. Do not assume the Apache 2.0 license used for a separate NEXUS Web LLM project automatically applies to Imaging Studio. Select and include the intended project license before publishing redistribution permissions.
 
