@@ -1,0 +1,14 @@
+{
+  "status": "PASS within available scope",
+  "product_version": "3.2.13",
+  "tests": {
+    "cpu_synthetic_tests": 74,
+    "python_ast": 6,
+    "local_installer_tests": 9
+  },
+  "limits": [
+    "No disk enumeration, native backend execution or physical writes."
+  ],
+  "hardware_qualified": false,
+  "full_debug_guarantee": false
+}
