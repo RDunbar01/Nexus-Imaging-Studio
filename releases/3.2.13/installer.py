@@ -1,7 +1,7 @@
 """Local-only, version-isolated Nexus installer. No downloads or dependency changes."""
 from pathlib import Path, PurePosixPath
 import contextlib,argparse,hashlib,io,json,os,re,shutil,stat,subprocess,sys,tempfile,webbrowser,zipfile
-MANIFEST_SHA = 'a5b5e636d7025cfc194ac69682499f94d9ba80235b79a6a6a7a85ebee5cc7b16'
+MANIFEST_SHA = '1e55b7b6092ad015be9e94d998b5f82f9ebac374c4d81fedacbabb40adf92b7c'
 ROOT=Path(__file__).resolve().parent
 
 def digest(b):return hashlib.sha256(b).hexdigest()

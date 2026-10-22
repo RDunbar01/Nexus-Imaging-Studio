@@ -5,12 +5,12 @@
   "version": "3.2.13",
   "entrypoint": "Nexus_Imaging_Studio_v3_2_13_Experimental_exFAT.pyw",
   "launch_kind": "python",
-  "payload_sha256": "a52a346e34acbb60aa53fcd3c1320693cd78a90a318c671477426fe5de128efc",
+  "payload_sha256": "c51649920e6b8e963c052a9df9ac4044e1966a87899f7e5a48b145ad2233a3b0",
   "parts": [
     {
       "name": "Nexus_imaging_Data_001.nxd",
-      "bytes": 317392,
-      "sha256": "a52a346e34acbb60aa53fcd3c1320693cd78a90a318c671477426fe5de128efc"
+      "bytes": 321934,
+      "sha256": "c51649920e6b8e963c052a9df9ac4044e1966a87899f7e5a48b145ad2233a3b0"
     }
   ],
   "files": {
@@ -22,29 +22,37 @@
       "bytes": 11636,
       "sha256": "8a8194c9ca56417a6a05485bcbeae9bb27c4beff48f0f8b244441f26d38642ae"
     },
+    "LICENSE": {
+      "bytes": 1978,
+      "sha256": "dd958772429563bb6a575b1d4db07375b7057bc1c6b20626150ab2770bc4f661"
+    },
+    "NEXUS_LICENSE_SCOPE.md": {
+      "bytes": 1615,
+      "sha256": "7a12f890aea5c22c88ae66d986b01e789a20ff7aad9cf6580958c007ff1b3eae"
+    },
     "Nexus_Imaging_Studio_v3_2_13_Experimental_exFAT.pyw": {
-      "bytes": 790620,
-      "sha256": "c57a53e51edce776bd836bba384b8a848fb86e23aa7bee1b0b0b0c5b8bbd656a"
+      "bytes": 790920,
+      "sha256": "793f8fd0257db2f1d3e8652ba8e14b5cec0a7e2a5368565c83466d595bb3fbe6"
     },
     "OFFICIAL_BACKEND_v2_1_0.json": {
       "bytes": 1045,
       "sha256": "302171004969744c70c59f80bfe709690ea630e174770d27405f4373611a73d6"
     },
     "PRODUCT_RELEASE.json": {
-      "bytes": 419,
-      "sha256": "6b5770d2624e2c5c99494923014aa52bf0c2e1e95a8064def394187aa7e4bafe"
+      "bytes": 637,
+      "sha256": "a2d90a30b4d85147cc591e9f2327fe9669076bb5a875ebc6e7adcf645e355d05"
     },
     "README_v3_2_13.txt": {
-      "bytes": 648,
-      "sha256": "e93633b8a3ddb8060f08e4b7a6f2cbdf69328a5151cff7ddc038a6adb59adffd"
+      "bytes": 1142,
+      "sha256": "2c3bf61d69ea85ffe2ed54feac5e2769b5acce72c64b9b83adadd419e94a5f06"
     },
     "RELEASE_SOURCE_SHA256.json": {
-      "bytes": 2981,
-      "sha256": "2a42909d70fac0a6a1fcd36e4e73c10e0648583cd8d800303440834c6474863f"
+      "bytes": 3284,
+      "sha256": "f3ad6a2591593bde3f88f9f6d10431d16ae6a243fe66105ed5754b4053479262"
     },
     "RELEASE_VALIDATION.json": {
-      "bytes": 333,
-      "sha256": "e1ac41c61bd15be7f567b470b2ba22ec4d26f6ac419c7eaf2c9eaa0a38df5e5d"
+      "bytes": 765,
+      "sha256": "049feb57eaf97c87d43c7f70e91271779bc2076926cb7e0fc41f81ab5f563c64"
     },
     "qualification/FINAL_RECEIPT.json": {
       "bytes": 1110,
@@ -101,6 +109,10 @@
     "qualification/next_release/imaging.log": {
       "bytes": 9096,
       "sha256": "771c3dbc193432cb8c899be317f6dd0cd7a41e3bede6949f255ccdb4e5bfb046"
+    },
+    "qualification/next_release/imaging_license_tests.log": {
+      "bytes": 8539,
+      "sha256": "9f993c176c863d3f684821e999de63b34ddcd100767175423fb85c27b5719cac"
     },
     "qualification/next_release/local_installer.log": {
       "bytes": 1015,
