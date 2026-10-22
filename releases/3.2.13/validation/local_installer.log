@@ -1,0 +1,14 @@
+test_active_lock_preserved (__main__.InstallerTests.test_active_lock_preserved) ... ok
+test_bad_identity_and_entrypoint_rejected (__main__.InstallerTests.test_bad_identity_and_entrypoint_rejected) ... ok
+test_case_collision_rejected (__main__.InstallerTests.test_case_collision_rejected) ... ok
+test_corrupt_part_no_publication (__main__.InstallerTests.test_corrupt_part_no_publication) ... ok
+test_file_hash_failure_cleans_stage (__main__.InstallerTests.test_file_hash_failure_cleans_stage) ... ok
+test_install_and_existing_state_preserved (__main__.InstallerTests.test_install_and_existing_state_preserved) ... ok
+test_manifest_tamper_rejected (__main__.InstallerTests.test_manifest_tamper_rejected) ... ok
+test_missing_entrypoint_rejected (__main__.InstallerTests.test_missing_entrypoint_rejected) ... ok
+test_unsafe_paths_and_windows_aliases (__main__.InstallerTests.test_unsafe_paths_and_windows_aliases) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.013s
+
+OK

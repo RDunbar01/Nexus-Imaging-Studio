@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "product_id": "imaging",
+  "product": "Nexus Imaging Studio",
+  "version": "3.2.13",
+  "entrypoint": "Nexus_Imaging_Studio_v3_2_13_Experimental_exFAT.pyw",
+  "launch_kind": "python",
+  "payload_sha256": "a52a346e34acbb60aa53fcd3c1320693cd78a90a318c671477426fe5de128efc",
+  "parts": [
+    {
+      "name": "Nexus_imaging_Data_001.nxd",
+      "bytes": 317392,
+      "sha256": "a52a346e34acbb60aa53fcd3c1320693cd78a90a318c671477426fe5de128efc"
+    }
+  ],
+  "files": {
+    "DEBUG_VALIDATION.txt": {
+      "bytes": 3019,
+      "sha256": "ecca9eeddd4c6c18887786e7d426989fdfc1b377fb680dde53e0b8f4bb9e82d1"
+    },
+    "HISTORICAL_README_v3_2_12.txt": {
+      "bytes": 11636,
+      "sha256": "8a8194c9ca56417a6a05485bcbeae9bb27c4beff48f0f8b244441f26d38642ae"
+    },
+    "Nexus_Imaging_Studio_v3_2_13_Experimental_exFAT.pyw": {
+      "bytes": 790620,
+      "sha256": "c57a53e51edce776bd836bba384b8a848fb86e23aa7bee1b0b0b0c5b8bbd656a"
+    },
+    "OFFICIAL_BACKEND_v2_1_0.json": {
+      "bytes": 1045,
+      "sha256": "302171004969744c70c59f80bfe709690ea630e174770d27405f4373611a73d6"
+    },
+    "PRODUCT_RELEASE.json": {
+      "bytes": 419,
+      "sha256": "6b5770d2624e2c5c99494923014aa52bf0c2e1e95a8064def394187aa7e4bafe"
+    },
+    "README_v3_2_13.txt": {
+      "bytes": 648,
+      "sha256": "e93633b8a3ddb8060f08e4b7a6f2cbdf69328a5151cff7ddc038a6adb59adffd"
+    },
+    "RELEASE_SOURCE_SHA256.json": {
+      "bytes": 2981,
+      "sha256": "2a42909d70fac0a6a1fcd36e4e73c10e0648583cd8d800303440834c6474863f"
+    },
+    "RELEASE_VALIDATION.json": {
+      "bytes": 333,
+      "sha256": "e1ac41c61bd15be7f567b470b2ba22ec4d26f6ac419c7eaf2c9eaa0a38df5e5d"
+    },
+    "qualification/FINAL_RECEIPT.json": {
+      "bytes": 1110,
+      "sha256": "eaba306fff731ceab0da1bea5327f0f5a6361862dfdebc60e2ad53310c8ea2e1"
+    },
+    "qualification/algorithms/REPORT.md": {
+      "bytes": 4511,
+      "sha256": "617b25bf3d7d541497849e044e3e6da730ee53f97772acca2b6b97a342c7c7e7"
+    },
+    "qualification/algorithms/receipt.json": {
+      "bytes": 543,
+      "sha256": "895cfce7fdc95eae3574e0c4920a03738a877d21c4560c9a50d7c1d9cf2f3c73"
+    },
+    "qualification/gui/cycle1_after.txt": {
+      "bytes": 938,
+      "sha256": "103ac5f6fc308ae48473918b03e74dc6218982c7b8540b7e2dbb0450a098936d"
+    },
+    "qualification/gui/cycle1_before.txt": {
+      "bytes": 2871,
+      "sha256": "75297a64ba830dc58e5e3de6eb842023f0fef5072be4711b08c2773659baa1e2"
+    },
+    "qualification/gui/cycle2_after.txt": {
+      "bytes": 1181,
+      "sha256": "7c49b90706a9252ced02e23c11480e3814bea55f197fb092a8d8b28a44ac29ea"
+    },
+    "qualification/gui/cycle2_before.txt": {
+      "bytes": 2697,
+      "sha256": "90d87c1c1ead6b73eb829e42e064e8da440f3531c4eab1e0a3868983119461e4"
+    },
+    "qualification/gui/cycle3_after.txt": {
+      "bytes": 1669,
+      "sha256": "f314ab82573236b16edfad6ca1a52bd715ebd72e0b1a91bd4f7ce23b443199ec"
+    },
+    "qualification/gui/cycle4_after.txt": {
+      "bytes": 1935,
+      "sha256": "d9214c2e1d6c34781c554be5a615aeedecfefc40e6186ad1d6876cd15a7b10ee"
+    },
+    "qualification/gui/cycle5_clean.txt": {
+      "bytes": 1935,
+      "sha256": "05ba86702fa7b0ca7ae528e09413bb50fc0acf3fc360fbc73012c5b3297aaf4b"
+    },
+    "qualification/gui/cycle5_full_suite.txt": {
+      "bytes": 7777,
+      "sha256": "6535d3a37120adc8f7900d0e33053950795ce0dfc5ec213506dd05d86dfac699"
+    },
+    "qualification/gui/receipt.json": {
+      "bytes": 2272,
+      "sha256": "6719d0b46258c51d729dd75fbf927f1371303ae6ee519a230847eba851fa3fa6"
+    },
+    "qualification/input_provenance.json": {
+      "bytes": 242,
+      "sha256": "a75f6a5ed19a465d31133a78804fd4c7450ef2528a9725c7ce5314039d46f920"
+    },
+    "qualification/next_release/imaging.log": {
+      "bytes": 9096,
+      "sha256": "771c3dbc193432cb8c899be317f6dd0cd7a41e3bede6949f255ccdb4e5bfb046"
+    },
+    "qualification/next_release/local_installer.log": {
+      "bytes": 1015,
+      "sha256": "1496fbc6c511af81322e51ea1981703212093e030d0d506600129d2a66b56f8d"
+    },
+    "qualification/original_notes/README_v3_2_12.txt": {
+      "bytes": 10970,
+      "sha256": "966d9be94b2a31a4bf6e11c55fd62a3b22c52e3a64b089c2aed469051be4bfe1"
+    },
+    "qualification/original_notes/SHA256SUMS_v3_2_12.txt": {
+      "bytes": 298,
+      "sha256": "9131838b210d69376dcc67c5c12c590149cb916c92a049b3e4bc9383311fd2d2"
+    },
+    "tests/run_safe_checks.py": {
+      "bytes": 1060,
+      "sha256": "9c6c2986e83ff0beadd4491a055f181ac45cb73ca9969f1605884830b0af427d"
+    },
+    "tests/test_gui_lifecycle.py": {
+      "bytes": 6950,
+      "sha256": "bdf2cc1840e0aa79a75c5da3f0ad9eb9a3b92b0abd139b0fe53d733b37f38173"
+    },
+    "tests/test_image_algorithms.py": {
+      "bytes": 12920,
+      "sha256": "919042cfc4036f3999b99b98d1a1f3d6967232404ea8b126e9f3496d4a9fbe60"
+    },
+    "tests/test_independent_release.py": {
+      "bytes": 4008,
+      "sha256": "08618e2bdd8f49907899486dab9fc8b4977e002523bfcfd14d9b227ca952c60b"
+    },
+    "tests/test_safety_core.py": {
+      "bytes": 8497,
+      "sha256": "847e82567b0a80e10295645e2990e04f5c89c3ed0a63163cfcfc35e8ebf4c691"
+    }
+  }
+}

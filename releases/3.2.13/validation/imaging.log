@@ -1,0 +1,96 @@
+test_checkpoint_pause_cancel (test_gui_lifecycle.GUI.test_checkpoint_pause_cancel) ... ok
+test_choose_missing_source_returns_visible_status (test_gui_lifecycle.GUI.test_choose_missing_source_returns_visible_status) ... ok
+test_close_cancels_callbacks (test_gui_lifecycle.GUI.test_close_cancels_callbacks) ... ok
+test_close_refuses_active_operation (test_gui_lifecycle.GUI.test_close_refuses_active_operation) ... ok
+test_idle_start_failure_cannot_terminate_later_job (test_gui_lifecycle.GUI.test_idle_start_failure_cannot_terminate_later_job) ... ok
+test_lab_success_and_failure_queue_only (test_gui_lifecycle.GUI.test_lab_success_and_failure_queue_only) ... ok
+test_lab_thread_start_failure_has_terminal_event (test_gui_lifecycle.GUI.test_lab_thread_start_failure_has_terminal_event) ... ok
+test_opacity_settings_corruption_is_recoverable (test_gui_lifecycle.GUI.test_opacity_settings_corruption_is_recoverable) ... ok
+test_partition_generation_rejects_stale_map (test_gui_lifecycle.GUI.test_partition_generation_rejects_stale_map) ... ok
+test_pump_yields_with_queued_progress (test_gui_lifecycle.GUI.test_pump_yields_with_queued_progress) ... ok
+test_refresh_start_failure_unfreezes_control (test_gui_lifecycle.GUI.test_refresh_start_failure_unfreezes_control) ... ok
+test_set_running_freezes_restores_controls (test_gui_lifecycle.GUI.test_set_running_freezes_restores_controls) ... ok
+test_stale_validation_not_applied (test_gui_lifecycle.GUI.test_stale_validation_not_applied) ... ok
+test_stop_unpauses_worker (test_gui_lifecycle.GUI.test_stop_unpauses_worker) ... ok
+test_validation_survives_busy_operation (test_gui_lifecycle.GUI.test_validation_survives_busy_operation) ... ok
+test_worker_start_failure_queues_error_and_clears_preflight (test_gui_lifecycle.GUI.test_worker_start_failure_queues_error_and_clears_preflight) ... ok
+test_copy_cancellation_no_write (test_image_algorithms.Algorithms.test_copy_cancellation_no_write) ... ok
+test_copy_invalid_geometry_no_write (test_image_algorithms.Algorithms.test_copy_invalid_geometry_no_write) ... ok
+test_copy_padding_hash (test_image_algorithms.Algorithms.test_copy_padding_hash) ... ok
+test_copy_short_and_growth (test_image_algorithms.Algorithms.test_copy_short_and_growth) ... ok
+test_fat_excess_volume_rejected (test_image_algorithms.Algorithms.test_fat_excess_volume_rejected) ... ok
+test_image_reader_bounds_file (test_image_algorithms.Algorithms.test_image_reader_bounds_file) ... ok
+test_loader_chain_truncated_rejected (test_image_algorithms.Algorithms.test_loader_chain_truncated_rejected) ... ok
+test_loader_directory_rejected (test_image_algorithms.Algorithms.test_loader_directory_rejected) ... ok
+test_loader_out_of_volume_rejected (test_image_algorithms.Algorithms.test_loader_out_of_volume_rejected) ... ok
+test_loader_valid (test_image_algorithms.Algorithms.test_loader_valid) ... ok
+test_mbr_out_of_bounds (test_image_algorithms.Algorithms.test_mbr_out_of_bounds) ... ok
+test_source_guard_replacement (test_image_algorithms.Algorithms.test_source_guard_replacement) ... ok
+test_free_loader_cluster_rejected (test_image_algorithms.AllocationChecks.test_free_loader_cluster_rejected) ... ok
+test_free_root_cluster_rejected (test_image_algorithms.AllocationChecks.test_free_root_cluster_rejected) ... ok
+test_invalid_active_fat_rejected (test_image_algorithms.AllocationChecks.test_invalid_active_fat_rejected) ... ok
+test_nonmirrored_second_fat (test_image_algorithms.AllocationChecks.test_nonmirrored_second_fat) ... ok
+test_raw_short_write_propagates (test_image_algorithms.AllocationChecks.test_raw_short_write_propagates) ... ok
+test_verify_source_changed_during_read (test_image_algorithms.AllocationChecks.test_verify_source_changed_during_read) ... ok
+test_recovery_init_interrupt_closes_owned_file (test_image_algorithms.ConstructorCleanup.test_recovery_init_interrupt_closes_owned_file) ... ok
+test_recovery_init_missing_path_closes_owned_file (test_image_algorithms.ConstructorCleanup.test_recovery_init_missing_path_closes_owned_file) ... ok
+test_deterministic_malformed_metadata_bounds (test_image_algorithms.FinalReview.test_deterministic_malformed_metadata_bounds) ... ok
+test_valid_gpt_then_overlap_and_crc_failure (test_image_algorithms.FinalReview.test_valid_gpt_then_overlap_and_crc_failure) ... ok
+test_boot_reader_partition_bound (test_image_algorithms.FurtherAlgorithms.test_boot_reader_partition_bound) ... ok
+test_comparison_rejects_short_source (test_image_algorithms.FurtherAlgorithms.test_comparison_rejects_short_source) ... ok
+test_copy_verify_actual_file_roundtrip (test_image_algorithms.FurtherAlgorithms.test_copy_verify_actual_file_roundtrip) ... ok
+test_exfat_cancel_and_partition_bound (test_image_algorithms.FurtherAlgorithms.test_exfat_cancel_and_partition_bound) ... ok
+test_exfat_checksum_rejected (test_image_algorithms.FurtherAlgorithms.test_exfat_checksum_rejected) ... ok
+test_exfat_metadata_free_rejected (test_image_algorithms.FurtherAlgorithms.test_exfat_metadata_free_rejected) ... ok
+test_exfat_observation_not_resize_proof (test_image_algorithms.FurtherAlgorithms.test_exfat_observation_not_resize_proof) ... ok
+test_gpt_malformed_crc_rejected (test_image_algorithms.FurtherAlgorithms.test_gpt_malformed_crc_rejected) ... ok
+test_verify_rejects_partial_length (test_image_algorithms.FurtherAlgorithms.test_verify_rejects_partial_length) ... ok
+test_recovery_detects_path_replacement (test_image_algorithms.RecoveryIdentity.test_recovery_detects_path_replacement) ... ok
+test_recovery_scan_read_only_digest (test_image_algorithms.RecoveryIdentity.test_recovery_scan_read_only_digest) ... ok
+test_ignored_range_boundary_keeps_payload_strict (test_independent_release.Independent.test_ignored_range_boundary_keeps_payload_strict) ... ok
+test_overwrite_flush_failure_does_not_verify (test_independent_release.Independent.test_overwrite_flush_failure_does_not_verify) ... ok
+test_partial_copy_cancel_never_returns_success (test_independent_release.Independent.test_partial_copy_cancel_never_returns_success) ... ok
+test_recovery_extract_file_and_manifest (test_independent_release.Independent.test_recovery_extract_file_and_manifest) ... ok
+test_source_destination_disk_alias_fails_closed (test_independent_release.Independent.test_source_destination_disk_alias_fails_closed) ... ok
+test_verification_source_path_replaced_rejected (test_independent_release.Independent.test_verification_source_path_replaced_rejected) ... ok
+test_backup_complete_synthetic (test_safety_core.ExtendedSafety.test_backup_complete_synthetic) ... ok
+test_backup_snapshot_and_collision (test_safety_core.ExtendedSafety.test_backup_snapshot_and_collision) ... ok
+test_cancel_overwrite_never_success (test_safety_core.ExtendedSafety.test_cancel_overwrite_never_success) ... ok
+test_corrupt_history_fails_closed (test_safety_core.ExtendedSafety.test_corrupt_history_fails_closed) ... ok
+test_corrupt_recovery_preferences (test_safety_core.ExtendedSafety.test_corrupt_recovery_preferences) ... ok
+test_exfat_reconcile_bounded (test_safety_core.ExtendedSafety.test_exfat_reconcile_bounded) ... ok
+test_exfat_reconcile_zero_only (test_safety_core.ExtendedSafety.test_exfat_reconcile_zero_only) ... ok
+test_known_zero_partitions_skip_locks (test_safety_core.ExtendedSafety.test_known_zero_partitions_skip_locks) ... ok
+test_partition_count_mismatch_refused (test_safety_core.ExtendedSafety.test_partition_count_mismatch_refused) ... ok
+test_recovery_stale_source_rejected (test_safety_core.ExtendedSafety.test_recovery_stale_source_rejected) ... ok
+test_unknown_partition_count_rejected (test_safety_core.ExtendedSafety.test_unknown_partition_count_rejected) ... ok
+test_unknown_sector_geometry_rejected (test_safety_core.ExtendedSafety.test_unknown_sector_geometry_rejected) ... ok
+test_atomic_settings_failure (test_safety_core.Safety.test_atomic_settings_failure) ... ok
+test_exact_target_guard (test_safety_core.Safety.test_exact_target_guard) ... ok
+test_file_overwrite_and_short_failure (test_safety_core.Safety.test_file_overwrite_and_short_failure) ... ok
+test_overwrite_geometry_rejects_coercion (test_safety_core.Safety.test_overwrite_geometry_rejects_coercion) ... ok
+test_resident_valid (test_safety_core.Safety.test_resident_valid) ... ok
+test_truncated_resident_rejected (test_safety_core.Safety.test_truncated_resident_rejected) ... ok
+test_unknown_system_flags_rejected (test_safety_core.Safety.test_unknown_system_flags_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 74 tests in 0.276s
+
+OK
+{
+  "source_sha256_before": "c57a53e51edce776bd836bba384b8a848fb86e23aa7bee1b0b0b0c5b8bbd656a",
+  "source_sha256_after": "c57a53e51edce776bd836bba384b8a848fb86e23aa7bee1b0b0b0c5b8bbd656a",
+  "source_unchanged": true,
+  "parsed": [
+    "Nexus_Imaging_Studio_v3_2_13_Experimental_exFAT.pyw",
+    "tests/run_safe_checks.py",
+    "tests/test_gui_lifecycle.py",
+    "tests/test_image_algorithms.py",
+    "tests/test_independent_release.py",
+    "tests/test_safety_core.py"
+  ],
+  "tests": 74,
+  "failures": 0,
+  "errors": 0,
+  "physical_media_executed": false
+}
