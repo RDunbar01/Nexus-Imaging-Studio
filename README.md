@@ -1,6 +1,11 @@
 # Nexus Imaging Studio
 
-> Draft release staging: the 3.2.13 installer and data components are included below. Windows/hardware acceptance and merge review remain pending; this is not a published release.
+## Current release licensing
+
+This Nexus release is not offered under Apache License 2.0. Nexus-owned software may be used only for personal, non-commercial purposes. Any other use, including commercial use, modification or redistribution, requires express written consent from the rights holder. Third-party code, models, datasets and separately licensed components retain their own licenses and notices. Previously granted rights and rights that cannot lawfully be restricted remain unchanged.
+
+
+> Packaging refresh pending: existing staged data will be replaced by the newly reviewed licensing-corrected package before merge. Draft release staging: the 3.2.13 installer and data components are included below. Windows/hardware acceptance and merge review remain pending; this is not a published release.
 
 **Next-release documentation staging · not a published application update**
 
