@@ -1,5 +1,11 @@
 # Nexus Imaging Studio
 
+## Start locally: Python and application requirements
+
+Download the full [3.2.13 package](releases/3.2.13/). The native application requires **Windows and Python with Tkinter/Tcl-Tk**; use **64-bit CPython 3.12**. It does **not** require PyTorch. No approved standalone hosted browser trial is supplied, and an HTML preview is not a way to execute physical-disk operations.
+
+The source uses APIs introduced in Python 3.8, but neither the installer nor the app enforces or qualifies a complete Python-version range. Therefore, 3.12 is the recommended interpreter, not a guarantee that all newer or older versions work. Windows/Tk launch, administrator prompts and physical-device writes remain unqualified by safe-file/mock tests. Back up data and verify the exact device before any authorized write.
+
 ## Current release licensing
 
 This Nexus release is not offered under Apache License 2.0. Nexus-owned software may be used only for personal, non-commercial purposes. Any other use, including commercial use, modification or redistribution, requires express written consent from the rights holder. Third-party code, models, datasets and separately licensed components retain their own licenses and notices. Previously granted rights and rights that cannot lawfully be restricted remain unchanged.
