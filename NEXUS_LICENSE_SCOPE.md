@@ -1,6 +1,6 @@
 # Additional permission for this release
 
-Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material in Nexus Imaging Studio 3.2.13. See [COMMERCIAL_EVALUATION_PERMISSION.md](COMMERCIAL_EVALUATION_PERMISSION.md) for the additional permission and its limits. For the permitted testing and evaluation, that permission takes precedence over a conflicting personal-use-only statement below. All other terms and separately licensed rights remain unchanged.
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material in Nexus Imaging Studio desktop 3.2.13 and browser edition 1.0. See [COMMERCIAL_EVALUATION_PERMISSION.md](COMMERCIAL_EVALUATION_PERMISSION.md) for the additional permission and its limits. For the permitted testing and evaluation, that permission takes precedence over a conflicting personal-use-only statement below. All other terms and separately licensed rights remain unchanged.
 
 ## Original scope and historical notices
 

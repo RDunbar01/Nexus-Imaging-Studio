@@ -1,0 +1,26 @@
+{
+  "file": "Nexus_Imaging_Studio_Browser_v1.html",
+  "bytes": 23105,
+  "sha256": "b15e0a669b2cd9f6c1d198cb4ec796b650a9e4a2d3116412e2c2902cbb41e126",
+  "native_version": "3.2.13",
+  "browser_version": "1.0",
+  "native_payload_modified": false,
+  "status": "LOCAL_TESTS_PASSED",
+  "core_tests": {
+    "passed": 31,
+    "scope": "Synthetic, in-memory files only; no disk access."
+  },
+  "dom_tests": {
+    "passed": 13,
+    "scope": "Full DOM with actual inline scripts and worker code, browser file/worker shims; no physical disks, no network."
+  },
+  "real_browser": "NOT_RUN: local Chromium blocked by executor singleton-socket policy; cloud browser QA remains required",
+  "physical_disk_operations": "NOT_RUN_NOT_SUPPORTED",
+  "native_payload": "Unchanged 3.2.13",
+  "limits": [
+    "Read-only local file analysis",
+    "4 MiB maximum GPT entry-array inspection",
+    "SHA-256 in 4 MiB worker chunks",
+    "No backup GPT, filesystem, bootloader, authenticity or physical-media validation"
+  ]
+}
