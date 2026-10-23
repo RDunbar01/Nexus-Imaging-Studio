@@ -1,6 +1,6 @@
 # Commercial testing and evaluation permission
 
-Rich Dunbar / Nexus Emerging Technology grants the additional permission below for Nexus-owned material in Nexus Imaging Studio 3.2.13. This permission supplements the bundled Nexus Personal-Use License; it does not replace licenses for separately licensed material.
+Rich Dunbar / Nexus Emerging Technology grants the additional permission below for Nexus-owned material in Nexus Imaging Studio desktop 3.2.13 and browser edition 1.0. This permission supplements the bundled Nexus Personal-Use License; it does not replace licenses for separately licensed material.
 
 Individuals and organizations may download, install, run and make copies reasonably necessary for their own internal commercial testing and evaluation of these releases, including their browser trials. This includes evaluating functionality, performance and suitability for a possible future use.
 
